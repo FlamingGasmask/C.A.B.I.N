@@ -16,4 +16,10 @@ headbob when walking 9/TBD/2025 TBDhrs
 
 this was realy fun, ive so far used mainly the starter content for now but SOON i will upgrade to having an ARTSTYLE, a PSX artstyle
 
+FORGOT TO MENTION IVE BEEN FOLLOWING THIS UNREAL TUTORIAL
+
+https://www.udemy.com/course/unreal-engine-ultimate-survival-horror-course/?couponCode=MT250923G3
+
+using this to get a frame work set up so i can branch off and build the game ive been conceptualizing for four years, i am VERY excited
+
 Level Design
