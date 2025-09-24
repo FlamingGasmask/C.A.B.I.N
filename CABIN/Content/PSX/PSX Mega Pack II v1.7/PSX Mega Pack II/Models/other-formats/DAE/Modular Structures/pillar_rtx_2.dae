@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.4.0 commit date:2022-12-06, commit time:18:46, hash:a95bf1ac01be</authoring_tool>
+    </contributor>
+    <created>2025-07-08T22:22:03</created>
+    <modified>2025-07-08T22:22:03</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="wall_rg_2-effect">
+      <profile_COMMON>
+        <newparam sid="wall_rg_2_png-surface">
+          <surface type="2D">
+            <init_from>wall_rg_2_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="wall_rg_2_png-sampler">
+          <sampler2D>
+            <source>wall_rg_2_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="wall_rg_2_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="concrete_hr_3-effect">
+      <profile_COMMON>
+        <newparam sid="concrete_hr_3_png-surface">
+          <surface type="2D">
+            <init_from>concrete_hr_3_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="concrete_hr_3_png-sampler">
+          <sampler2D>
+            <source>concrete_hr_3_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="concrete_hr_3_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="concrete_hr_3_png" name="concrete_hr_3_png">
+      <init_from>concrete_hr_3.png</init_from>
+    </image>
+    <image id="wall_rg_2_png" name="wall_rg_2_png">
+      <init_from>wall_rg_2.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="wall_rg_2-material" name="wall_rg_2">
+      <instance_effect url="#wall_rg_2-effect"/>
+    </material>
+    <material id="concrete_hr_3-material" name="concrete_hr_3">
+      <instance_effect url="#concrete_hr_3-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="pillar_rtx_2-mesh" name="pillar_rtx_2">
+      <mesh>
+        <source id="pillar_rtx_2-mesh-positions">
+          <float_array id="pillar_rtx_2-mesh-positions-array" count="60">0.5 7.09693e-7 0.2000001 -0.5 7.09695e-7 0.2000005 -0.5 -7.38302e-7 -0.1999998 0.5 -7.38306e-7 -0.2000008 -0.4 2.999999 -0.2000111 0.3999999 0.4000006 0.1999931 0.5 0.2600007 0.1999966 -0.5 0.2600007 0.199997 -0.4 0.4000006 0.1999936 -0.4 0.3999992 -0.2000073 -0.5 0.2599992 -0.2000035 0.5 0.2599992 -0.2000046 0.3999999 0.3999992 -0.2000083 0.3999999 2.999998 0.1999897 0.2 2.999998 0.1999902 0.2 2.999996 -0.2000111 0.3999999 2.999996 -0.2000122 -0.2000001 2.999998 0.1999897 -0.4 2.999998 0.1999902 -0.2000001 2.999996 -0.2000122</float_array>
+          <technique_common>
+            <accessor source="#pillar_rtx_2-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pillar_rtx_2-mesh-normals">
+          <float_array id="pillar_rtx_2-mesh-normals-array" count="111">5.49267e-7 1.50984e-5 1 5.62231e-7 1.32855e-6 1 4.69085e-7 1.47738e-5 1 -1.26539e-6 -1.58833e-5 -1 -1.28875e-6 -1.45682e-6 -1 -1.1402e-6 -1.67266e-5 -1 0.9522963 0.305175 -1.08002e-6 1 0 0 0.9522945 0.3051806 -1.08004e-6 -1 0 0 -0.9522963 0.305175 -1.08002e-6 -0.9522946 0.3051805 -1.08004e-6 -0.952296 0.3051759 -1.08002e-6 -1 0 0 -0.952295 0.305179 -1.08003e-6 1 0 0 0.9522951 0.3051791 -1.08003e-6 0.952296 0.305176 -1.08002e-6 -1.03626e-6 -1.45573e-5 -1 -1.0489e-6 -1.95423e-5 -1 -1.06027e-6 -1.45573e-5 -1 -1.10536e-6 -1.90507e-5 -1 4.58497e-7 1.32964e-5 1 4.46151e-7 1.74727e-5 1 4.58497e-7 1.32964e-5 1 4.90267e-7 1.76618e-5 1 0 1 -2.98022e-6 0 1 -2.98022e-6 0 1 -2.98022e-6 4.22239e-6 1 1.83135e-6 1.00827e-5 1 -1.83135e-6 0 1 4.47033e-6 5.73122e-7 1.32964e-6 1 -1.29529e-6 -1.45573e-6 -1 1 0 0 0 1 -2.98022e-6 1.43051e-5 1 -4.47033e-6</float_array>
+          <technique_common>
+            <accessor source="#pillar_rtx_2-mesh-normals-array" count="37" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pillar_rtx_2-mesh-map-0">
+          <float_array id="pillar_rtx_2-mesh-map-0-array" count="168">0.5996094 0.1328125 0.4003906 1 0.4003906 0.1328125 0.5996094 0.1328125 0.4003906 1 0.4003906 0.1328125 0.5507813 0.0859375 0.4492188 0 0.4492188 0.0859375 0.5507813 0 0.4492188 0.0859375 0.5507813 0.0859375 0.5507813 0.1328125 0.4492188 1 0.5507813 1 0.5507813 0.0859375 0.4492188 0.1328125 0.5507813 0.1328125 0.4492188 1 0.5507813 0.1328125 0.4492188 0.1328125 0.5507813 0.1328125 0.4492188 0.0859375 0.4492188 0.1328125 0.6253255 0 0.3746855 0.08593744 0.3746744 0 0.6253264 0.0859375 0.4003906 0.1328125 0.3746855 0.08593744 0.6253255 0 0.3746736 0.0859375 0.3746744 0 0.6253145 0.0859375 0.4003906 0.1328125 0.3746736 0.0859375 1.099609 0.4492188 1.050781 0.5507813 1.050781 0.4492188 0.9492188 0.4492188 0.9003906 0.5507813 0.9003906 0.4492188 0.5996094 0.1328125 0.5996094 1 0.4003906 1 0.5996094 0.1328125 0.5996094 1 0.4003906 1 0.5507813 0.0859375 0.5507813 0 0.4492188 0 0.5507813 0 0.4492188 0 0.4492188 0.0859375 0.5507813 0.1328125 0.4492188 0.1328125 0.4492188 1 0.5507813 0.0859375 0.4492188 0.0859375 0.4492188 0.1328125 0.4492188 1 0.5507813 1 0.5507813 0.1328125 0.5507813 0.1328125 0.5507813 0.0859375 0.4492188 0.0859375 0.6253255 0 0.6253264 0.0859375 0.3746855 0.08593744 0.6253264 0.0859375 0.5996094 0.1328125 0.4003906 0.1328125 0.6253255 0 0.6253145 0.0859375 0.3746736 0.0859375 0.6253145 0.0859375 0.5996094 0.1328125 0.4003906 0.1328125 1.099609 0.4492188 1.099609 0.5507813 1.050781 0.5507813 0.9492188 0.4492188 0.9492188 0.5507813 0.9003906 0.5507813</float_array>
+          <technique_common>
+            <accessor source="#pillar_rtx_2-mesh-map-0-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pillar_rtx_2-mesh-vertices">
+          <input semantic="POSITION" source="#pillar_rtx_2-mesh-positions"/>
+        </vertices>
+        <triangles material="wall_rg_2-material" count="24">
+          <input semantic="VERTEX" source="#pillar_rtx_2-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pillar_rtx_2-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pillar_rtx_2-mesh-map-0" offset="2" set="0"/>
+          <p>5 0 0 18 1 1 8 2 2 9 3 3 16 4 4 12 5 5 6 6 6 3 7 7 11 8 8 2 9 9 7 10 10 10 11 11 9 12 12 18 13 13 4 9 14 10 11 15 8 14 16 9 12 17 16 15 18 5 16 19 12 17 20 5 16 21 11 8 22 12 17 23 2 18 24 11 19 25 3 20 26 10 21 27 12 5 28 11 19 29 0 22 30 7 23 31 1 24 32 6 25 33 8 2 34 7 23 35 5 0 42 13 32 43 18 1 44 9 3 45 4 33 46 16 4 47 6 6 48 0 7 49 3 7 50 2 9 51 1 9 52 7 10 53 9 12 54 8 14 55 18 13 56 10 11 57 7 10 58 8 14 59 16 15 60 13 34 61 5 16 62 5 16 63 6 6 64 11 8 65 2 18 66 10 21 67 11 19 68 10 21 69 9 3 70 12 5 71 0 22 72 6 25 73 7 23 74 6 25 75 5 0 76 8 2 77</p>
+        </triangles>
+        <triangles material="concrete_hr_3-material" count="4">
+          <input semantic="VERTEX" source="#pillar_rtx_2-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pillar_rtx_2-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pillar_rtx_2-mesh-map-0" offset="2" set="0"/>
+          <p>13 26 36 15 27 37 14 28 38 17 29 39 4 30 40 18 31 41 13 26 78 16 35 79 15 27 80 17 29 81 19 36 82 4 30 83</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="pillar_rtx_2" name="pillar_rtx_2" type="NODE">
+        <matrix sid="transform">7.54979e-8 -4.37111e-8 -1 0 -1 -3.61999e-6 -7.54977e-8 0 -3.61999e-6 1 -4.37114e-8 0 0 0 0 1</matrix>
+        <instance_geometry url="#pillar_rtx_2-mesh" name="pillar_rtx_2">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="wall_rg_2-material" target="#wall_rg_2-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="concrete_hr_3-material" target="#concrete_hr_3-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

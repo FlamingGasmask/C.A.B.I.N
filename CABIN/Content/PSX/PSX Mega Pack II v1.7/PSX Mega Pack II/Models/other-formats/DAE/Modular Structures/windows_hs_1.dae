@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.4.0 commit date:2022-12-06, commit time:18:46, hash:a95bf1ac01be</authoring_tool>
+    </contributor>
+    <created>2025-07-08T22:21:56</created>
+    <modified>2025-07-08T22:21:56</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="wall_hs_1-effect">
+      <profile_COMMON>
+        <newparam sid="wall_hs_1_png-surface">
+          <surface type="2D">
+            <init_from>wall_hs_1_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="wall_hs_1_png-sampler">
+          <sampler2D>
+            <source>wall_hs_1_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="wall_hs_1_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="window_hr_1-effect">
+      <profile_COMMON>
+        <newparam sid="window_hr_1_png-surface">
+          <surface type="2D">
+            <init_from>window_hr_1_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="window_hr_1_png-sampler">
+          <sampler2D>
+            <source>window_hr_1_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="window_hr_1_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="concrete_hr_1-effect">
+      <profile_COMMON>
+        <newparam sid="concrete_hr_1_png-surface">
+          <surface type="2D">
+            <init_from>concrete_hr_1_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="concrete_hr_1_png-sampler">
+          <sampler2D>
+            <source>concrete_hr_1_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="concrete_hr_1_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="door_hm_1-effect">
+      <profile_COMMON>
+        <newparam sid="door_hm_1_png-surface">
+          <surface type="2D">
+            <init_from>door_hm_1_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="door_hm_1_png-sampler">
+          <sampler2D>
+            <source>door_hm_1_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="door_hm_1_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="metal_hr_2-effect">
+      <profile_COMMON>
+        <newparam sid="metal_hr_2_png-surface">
+          <surface type="2D">
+            <init_from>metal_hr_2_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="metal_hr_2_png-sampler">
+          <sampler2D>
+            <source>metal_hr_2_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="metal_hr_2_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="concrete_hr_3-effect">
+      <profile_COMMON>
+        <newparam sid="concrete_hr_3_png-surface">
+          <surface type="2D">
+            <init_from>concrete_hr_3_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="concrete_hr_3_png-sampler">
+          <sampler2D>
+            <source>concrete_hr_3_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="concrete_hr_3_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="planks_hr_4-effect">
+      <profile_COMMON>
+        <newparam sid="planks_hr_4_png-surface">
+          <surface type="2D">
+            <init_from>planks_hr_4_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="planks_hr_4_png-sampler">
+          <sampler2D>
+            <source>planks_hr_4_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="planks_hr_4_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="concrete_hr_1_png" name="concrete_hr_1_png">
+      <init_from>concrete_hr_1.png</init_from>
+    </image>
+    <image id="concrete_hr_3_png" name="concrete_hr_3_png">
+      <init_from>concrete_hr_3.png</init_from>
+    </image>
+    <image id="door_hm_1_png" name="door_hm_1_png">
+      <init_from>door_hm_1.png</init_from>
+    </image>
+    <image id="metal_hr_2_png" name="metal_hr_2_png">
+      <init_from>metal_hr_2.png</init_from>
+    </image>
+    <image id="planks_hr_4_png" name="planks_hr_4_png">
+      <init_from>planks_hr_4.png</init_from>
+    </image>
+    <image id="wall_hs_1_png" name="wall_hs_1_png">
+      <init_from>wall_hs_1.png</init_from>
+    </image>
+    <image id="window_hr_1_png" name="window_hr_1_png">
+      <init_from>window_hr_1.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="wall_hs_1-material" name="wall_hs_1">
+      <instance_effect url="#wall_hs_1-effect"/>
+    </material>
+    <material id="window_hr_1-material" name="window_hr_1">
+      <instance_effect url="#window_hr_1-effect"/>
+    </material>
+    <material id="concrete_hr_1-material" name="concrete_hr_1">
+      <instance_effect url="#concrete_hr_1-effect"/>
+    </material>
+    <material id="door_hm_1-material" name="door_hm_1">
+      <instance_effect url="#door_hm_1-effect"/>
+    </material>
+    <material id="metal_hr_2-material" name="metal_hr_2">
+      <instance_effect url="#metal_hr_2-effect"/>
+    </material>
+    <material id="concrete_hr_3-material" name="concrete_hr_3">
+      <instance_effect url="#concrete_hr_3-effect"/>
+    </material>
+    <material id="planks_hr_4-material" name="planks_hr_4">
+      <instance_effect url="#planks_hr_4-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="windows_hs_1-mesh" name="windows_hs_1">
+      <mesh>
+        <source id="windows_hs_1-mesh-positions">
+          <float_array id="windows_hs_1-mesh-positions-array" count="312">2 7.09693e-7 0.2000001 2 3.000001 0.1999897 -2 7.09695e-7 0.2000005 -2 3.000001 0.1999902 -0.2000004 0.9900007 0.1999969 0.2000004 0.9900007 0.1999968 1 0.9900007 0.1999967 -1 0.9900007 0.199997 -1 2.500001 0.1999918 0.2000004 2.500001 0.1999917 -0.2000004 2.500001 0.1999917 1 2.500001 0.1999915 -0.2000004 1 0.09999686 0.2000004 1 0.0999968 1 1 0.09999674 -1 1 0.09999692 -1 2.5 0.09999173 0.2000004 2.5 0.09999161 -0.2000004 2.5 0.09999167 1 2.5 0.09999155 -1.1 2.500001 0.2099909 -1.1 2.700001 0.2099902 -1.1 2.5 -9.10958e-6 -1.1 2.7 -9.83358e-6 1.1 2.500001 0.2099909 1.1 2.700001 0.2099902 1.1 2.5 -9.10958e-6 1.1 2.7 -9.83358e-6 -2 -7.38302e-7 -0.1999998 2 -7.38306e-7 -0.2000008 0.2000003 0.9899993 -0.2000041 -0.2000004 0.9899993 -0.200004 -1 0.9899993 -0.2000038 1 0.9899993 -0.2000043 1 2.499999 -0.20001 -0.2000004 2.499999 -0.2000097 0.2000003 2.499999 -0.2000098 -1 2.499999 -0.2000095 0.2000004 0.9999997 -0.1000041 -0.2000004 0.9999997 -0.100004 -1 0.9999997 -0.1000038 1 0.9999997 -0.1000043 1 2.5 -0.10001 -0.2000004 2.5 -0.1000097 0.2000004 2.5 -0.1000098 -1 2.5 -0.1000095 1.1 2.499999 -0.2100092 1.1 2.699999 -0.2100099 1.1 2.5 -9.15647e-6 1.1 2.7 -9.88046e-6 -1.1 2.499999 -0.2100088 -1.1 2.699999 -0.2100096 -1.1 2.5 -8.82427e-6 -1.1 2.7 -9.54827e-6 -2 2.999999 -0.2000111 2 2.999999 -0.2000122 0.15 0.96 -0.1000035 0.15 1 -0.1000036 1.05 0.96 -0.1000035 1.05 1 -0.1000036 0.15 0.9599995 -0.2700035 0.18 0.9599993 -0.3000035 0.18 0.9999994 -0.3000037 0.15 0.9999995 -0.2700036 1.02 0.9599993 -0.3000035 1.05 0.9599995 -0.2700035 1.05 0.9999995 -0.2700037 1.02 0.9999994 -0.3000037 -0.18 0.9999994 -0.3000037 -0.15 0.9999995 -0.2700037 -0.15 0.9599995 -0.2700035 -0.18 0.9599993 -0.3000035 -1.05 0.9999995 -0.2700036 -1.02 0.9999994 -0.3000037 -1.02 0.9599993 -0.3000035 -1.05 0.9599995 -0.2700035 -0.15 1 -0.1000036 -0.15 0.96 -0.1000035 -1.05 1 -0.1000036 -1.05 0.96 -0.1000035 -1.05 0.984001 0.2829964 -1.05 1.008 0.09399634 -1.05 1.012 0.09399628 -0.1499996 0.984001 0.2829964 -0.1499996 1.008 0.09399634 -0.1499996 1.012 0.09399628 -1.05 0.980001 0.2799965 -0.1499996 0.980001 0.2799965 -1.05 0.9600011 0.2949965 -0.1499996 0.9600011 0.2949965 -1.05 0.9600011 0.2899965 -0.1499996 0.9600011 0.2899965 0.1500004 0.984001 0.2829964 0.1500004 1.008 0.09399634 0.1500004 1.012 0.09399628 1.05 0.984001 0.2829964 1.05 1.008 0.09399634 1.05 1.012 0.09399628 0.1500004 0.980001 0.2799965 1.05 0.980001 0.2799965 0.1500004 0.9600011 0.2949965 1.05 0.9600011 0.2949965 0.1500004 0.9600011 0.2899965 1.05 0.9600011 0.2899965</float_array>
+          <technique_common>
+            <accessor source="#windows_hs_1-mesh-positions-array" count="104" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="windows_hs_1-mesh-normals">
+          <float_array id="windows_hs_1-mesh-normals-array" count="462">0 3.46266e-6 1 1.30094e-7 3.46267e-6 1 0 3.45466e-6 1 0 3.45466e-6 1 0 3.45322e-6 1 1.22869e-7 3.45244e-6 1 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0.9950375 0.09950083 0 0.9950377 0.09949958 0 0.9950377 0.09949946 0 0.9950375 0.09950083 0 0.9950376 0.09949958 0 0.9950376 0.09949946 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 0 3.4521e-6 1 0 3.4521e-6 1 0 3.4521e-6 1 0 3.4521e-6 1 0 3.4521e-6 1 1.24176e-7 3.4521e-6 1 1 0 0 0 3.65078e-6 1 0 -1 4.12846e-6 0 1 -2.06423e-6 -2.39912e-7 -3.79305e-6 -1 -2.16942e-7 -3.79306e-6 -1 -2.76743e-7 -3.78856e-6 -1 -2.66062e-7 -3.78856e-6 -1 -2.7056e-7 -3.79517e-6 -1 -2.85455e-7 -3.79421e-6 -1 -1 0 1.49012e-7 -1 0 1.49012e-7 -1 0 1.49012e-7 1 0 -1.49012e-7 1 0 -1.49012e-7 1 0 -1.49012e-7 0 0.995037 -0.09950685 0 0.995037 -0.09950685 0 0.995037 -0.09950685 0 0.9950369 -0.09950685 0 0.995037 -0.09950655 0 0.9950369 -0.09950649 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -2.56099e-7 -3.78986e-6 -1 -2.65442e-7 -3.78986e-6 -1 -2.73188e-7 -3.78986e-6 -1 -2.65441e-7 -3.78986e-6 -1 -2.56099e-7 -3.78986e-6 -1 -2.48353e-7 -3.78986e-6 -1 1 3.93532e-7 0 -1 7.09579e-7 0 -1.52398e-7 -3.65078e-6 -1 0 -1 2.06423e-6 0 1 -2.06423e-6 0 1 -3.57626e-6 0 1 -3.57627e-6 0 1 -3.57627e-6 0 1 -3.39415e-6 0 -1 3.84947e-6 -1 -3.28705e-7 0 -0.7071079 -1.97562e-6 -0.7071057 0 -2.98023e-6 -1 0.7071076 -2.19515e-6 -0.707106 0.7071076 -2.74394e-6 -0.707106 -1 1.75308e-6 0 0 -1 3.84947e-6 0 1 -3.39415e-6 -0.7071079 -2.63417e-6 -0.7071057 0 -0.9888586 -0.1488575 0 0.4472171 0.8944255 0 -1 0 0 -0.4472163 -0.8944259 1 1.00143e-5 0 -1 -3.80545e-5 0 0 0.9892039 0.1465459 -1 -5.82083e-7 0 0 -0.9888587 -0.1488576 0 0.4472171 0.8944256 0 -0.4472163 -0.8944259 1 -4.00574e-5 0 -1 9.01289e-6 0 0 3.45991e-6 1 1.35804e-7 3.45991e-6 1 0 3.45092e-6 1 0 3.45092e-6 1 1.2803e-7 3.45244e-6 1 1.36064e-7 3.45322e-6 1 -1 0 0 0 0.9950375 0.09950095 0 0.9950375 0.09950095 -1 0 0 1.24176e-7 3.4521e-6 1 0 3.4521e-6 1 -1 -3.93532e-7 0 1 -7.09579e-7 0 0 3.65079e-6 1 0 -1 2.06423e-6 0 1 -4.12846e-6 -2.84522e-7 -3.79106e-6 -1 -2.4631e-7 -3.79106e-6 -1 -2.38015e-7 -3.79355e-6 -1 -2.24336e-7 -3.79355e-6 -1 -2.58518e-7 -3.79421e-6 -1 -2.50832e-7 -3.79517e-6 -1 -1 0 1.49012e-7 1 0 -1.49012e-7 0 0.9950369 -0.09950685 1 0 0 -2.48353e-7 -3.78986e-6 -1 -2.73188e-7 -3.78986e-6 -1 -1 0 0 -1.35465e-7 -3.65079e-6 -1 0 -1 4.12846e-6 0 1 -4.12846e-6 0 1 -3.57626e-6 0 1 -4.38271e-6 0 1 -4.25747e-6 0 1 -4.38269e-6 -4.67493e-7 -1 2.9218e-6 0 -1 3.5479e-6 4.67494e-7 -1 2.92181e-6 -0.7071071 -2.19515e-6 -0.7071065 0 -2.98022e-6 -1 0.7071074 -1.58051e-6 -0.7071062 1 -2.19134e-6 0 0 -2.98022e-6 -1 0.7071074 -2.23906e-6 -0.7071062 1 0 0 -4.67494e-7 -1 2.9218e-6 4.67493e-7 -1 2.9218e-6 0 1 -4.3827e-6 0 1 -4.38271e-6 0 -0.9888589 -0.1488562 0 0.4472151 0.8944265 1 -2.56394e-6 0 0 0.9892041 0.1465445 0 0.4472151 0.8944265 1 -2.16203e-5 0 1 -7.76114e-6 0</float_array>
+          <technique_common>
+            <accessor source="#windows_hs_1-mesh-normals-array" count="154" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="windows_hs_1-mesh-map-0">
+          <float_array id="windows_hs_1-mesh-map-0-array" count="924">0.4499999 0.8333334 0.5500001 0.8333334 1 1 0 1 0 0 0.2499999 0.3300001 0.5501177 0.8333827 0.5752661 0.3331857 0.575266 0.8333827 0.4499956 0.8333827 0.4248473 0.3331857 0.4499999 0.33 0.749962 0.5656471 0.5500269 0.5991782 0.5500269 0.5656471 0.749962 0.5656471 0.5500269 0.5991782 0.5500269 0.5656471 0.7499864 0.8333827 0.724838 0.3331857 0.7500001 0.33 0.250061 0.8333827 0.2752092 0.3331857 0.2752092 0.8333827 0.9999999 1 0 0 0.9999999 0 0.9999998 1 0 0 0.9999998 0 0.1499999 0.52625 0.09999996 0.47375 0.09999996 0.52625 0.09999996 0.47375 0.1499999 0.52625 0.09999996 0.52625 0.1499999 0.225 0.09999996 0.775 0.1 0.225 0.15125 0.225 0.09874993 0.775 0.15125 0.775 0.15125 0.775 0.09874999 0.225 0.15125 0.225 0.4499999 0.8333334 0.5500001 0.8333334 1 1 0 1 0 0 0.2499999 0.3300001 0.5501177 0.8333827 0.5752661 0.3331857 0.575266 0.8333827 0.4499956 0.8333827 0.4248473 0.3331857 0.4499999 0.33 0.749962 0.5656471 0.5500269 0.5991782 0.5500269 0.5656471 0.749962 0.5656471 0.5500269 0.5991782 0.5500269 0.5656471 0.7499864 0.8333827 0.724838 0.3331857 0.7500001 0.33 0.250061 0.8333827 0.2752092 0.3331857 0.2752092 0.8333827 0.9999999 1 0 0 0.9999999 0 0.9999998 1 0 0 0.9999998 0 0.09999996 0.52625 0.1499999 0.47375 0.09999996 0.47375 0.1499999 0.47375 0.09999996 0.52625 0.09999996 0.47375 0.1499999 0.225 0.09999996 0.775 0.1 0.225 0.15125 0.775 0.09874999 0.225 0.09874993 0.775 0.15125 0.775 0.09874999 0.225 0.15125 0.225 1.5 0.4499999 0.5 0.5500001 0.5 0.4499998 0.8571429 0 0.9941406 0.6228572 0.8571429 0.6457143 0.8571429 0.6457143 0.9941406 0.02285712 0.8571429 0 0.857261 0.6459519 0.977261 0.6745232 0.977261 0.6459519 0.8229752 0.6459519 0.857261 0.6745232 0.857261 0.6459519 0.9428572 0.6228572 0.9142857 0.02285712 0.9142857 0.6228572 0.977261 0.6745232 1.011547 0.6459519 0.977261 0.6459519 0.977261 0.6745232 0.857261 0.6459519 0.977261 0.6459519 0.9316406 0.8728572 0.9030692 0.2728571 0.9030692 0.8728572 0.1088241 0.7995232 0.1431098 0.7709519 0.1088241 0.7709519 0.1088241 0.7995232 -0.01117581 0.7709519 0.1088241 0.7709519 -0.01117581 0.7709519 0.1088241 0.7995232 0.1088241 0.7709519 0.8571429 0.8957143 0.9941406 0.2728571 0.8571429 0.25 0.8571429 0.25 0.9941406 0.8728572 0.8571429 0.8957143 0.1430349 0.7709519 0.1087492 0.7995232 0.1087492 0.7709519 1 0.423272 0.9948461 0.4202939 0.9959411 0.4198268 0.943547 0.6607143 0.9883317 0.875 0.943547 0.875 0.943547 0.375 0.9371582 0.5892857 0.9371582 0.375 0.9948461 0.5892857 0.9936557 0.375 0.9948462 0.375 0.9883317 0.6607143 0.9936556 0.875 0.9883317 0.875 0.9990749 0.4738569 0.995941 0.42903 0.9999999 0.4736303 0.9948461 0.4285627 0.9999999 0.4255847 0.995941 0.42903 0.9959411 0.4198268 0.9990749 0.375 1 0.3752266 0.891667 0.375 0.9371582 0.5892857 0.891667 0.5892857 1 0.04827201 0.9948461 0.04529392 0.9959411 0.04482674 0.943547 0.2857142 0.9883317 0.5 0.943547 0.5 0.943547 0 0.9371582 0.2142857 0.9371582 0 0.9948461 0.2142857 0.9936557 0 0.9948462 0 0.9883317 0.2857143 0.9936556 0.5 0.9883317 0.5 0.9990749 0.09885686 0.995941 0.05402994 0.9999999 0.0986303 0.9948461 0.0535627 0.9999999 0.05058467 0.995941 0.05402994 0.9959411 0.04482674 0.9990749 0 1 2.26557e-4 0.891667 0 0.9371582 0.2142857 0.891667 0.2142856 0.5500001 0.8333334 0.7500001 0.8333334 1 1 1 1 0 1 0.4499999 0.8333334 0 1 0.2499999 0.8333334 0.4499999 0.8333334 0.5500001 0.33 0.5500001 0.8333334 0.4499999 0.8333334 0.5500001 0.33 0.4499999 0.8333334 0.4499999 0.33 1 1 0.7500001 0.8333334 0.7500001 0.33 0.5500001 0.33 0.4499999 0.33 0 0 0.4499999 0.33 0.2499999 0.3300001 0 0 1 0 1 1 0.7500001 0.33 0.7500001 0.33 0.5500001 0.33 1 0 0 0 1 0 0.5500001 0.33 0.2499999 0.8333334 0 1 0.2499999 0.3300001 0.5501177 0.8333827 0.5500001 0.33 0.5752661 0.3331857 0.4499956 0.8333827 0.4248474 0.8333827 0.4248473 0.3331857 0.749962 0.5656471 0.749962 0.5991782 0.5500269 0.5991782 0.749962 0.5656471 0.749962 0.5991782 0.5500269 0.5991782 0.7499864 0.8333827 0.7248382 0.8333827 0.724838 0.3331857 0.250061 0.8333827 0.2499999 0.3300001 0.2752092 0.3331857 0.9999999 1 0 1 0 0 0.9999998 1 0 1 0 0 0.1499999 0.52625 0.1499999 0.47375 0.09999996 0.47375 0.09999996 0.47375 0.1499999 0.47375 0.1499999 0.52625 0.1499999 0.225 0.1499999 0.775 0.09999996 0.775 0.15125 0.225 0.09874999 0.225 0.09874993 0.775 0.15125 0.775 0.09874993 0.775 0.09874999 0.225 0.5500001 0.8333334 0.7500001 0.8333334 1 1 1 1 0 1 0.4499999 0.8333334 0 1 0.2499999 0.8333334 0.4499999 0.8333334 0.5500001 0.33 0.5500001 0.8333334 0.4499999 0.8333334 0.5500001 0.33 0.4499999 0.8333334 0.4499999 0.33 1 1 0.7500001 0.8333334 0.7500001 0.33 0.5500001 0.33 0.4499999 0.33 0 0 0.4499999 0.33 0.2499999 0.3300001 0 0 1 0 1 1 0.7500001 0.33 0.7500001 0.33 0.5500001 0.33 1 0 0 0 1 0 0.5500001 0.33 0.2499999 0.8333334 0 1 0.2499999 0.3300001 0.5501177 0.8333827 0.5500001 0.33 0.5752661 0.3331857 0.4499956 0.8333827 0.4248474 0.8333827 0.4248473 0.3331857 0.749962 0.5656471 0.749962 0.5991782 0.5500269 0.5991782 0.749962 0.5656471 0.749962 0.5991782 0.5500269 0.5991782 0.7499864 0.8333827 0.7248382 0.8333827 0.724838 0.3331857 0.250061 0.8333827 0.2499999 0.3300001 0.2752092 0.3331857 0.9999999 1 0 1 0 0 0.9999998 1 0 1 0 0 0.09999996 0.52625 0.1499999 0.52625 0.1499999 0.47375 0.1499999 0.47375 0.1499999 0.52625 0.09999996 0.52625 0.1499999 0.225 0.1499999 0.775 0.09999996 0.775 0.15125 0.775 0.15125 0.225 0.09874999 0.225 0.15125 0.775 0.09874993 0.775 0.09874999 0.225 1.5 0.4499999 1.5 0.5500003 0.5 0.5500001 0.8571429 0 0.9712835 0 0.9941406 0.02285712 0.9941406 0.02285712 0.9941406 0.6228572 0.8571429 0 0.9941406 0.6228572 0.9712835 0.6457143 0.8571429 0.6457143 0.8571429 0.6457143 0.9712835 0.6457143 0.9941406 0.6228572 0.9941406 0.6228572 0.9941406 0.02285712 0.8571429 0.6457143 0.9941406 0.02285712 0.9712835 0 0.8571429 0 0.857261 0.6459519 0.857261 0.6745232 0.977261 0.6745232 0.8229752 0.6459519 0.8229752 0.6745232 0.857261 0.6745232 0.9428572 0.6228572 0.9428572 0.02285712 0.9142857 0.02285712 0.977261 0.6745232 1.011547 0.6745232 1.011547 0.6459519 0.977261 0.6745232 0.857261 0.6745232 0.857261 0.6459519 0.9316406 0.8728572 0.9316406 0.2728571 0.9030692 0.2728571 0.1088241 0.7995232 0.1431098 0.7995232 0.1431098 0.7709519 0.1088241 0.7995232 -0.01117581 0.7995232 -0.01117581 0.7709519 -0.01117581 0.7709519 -0.01117581 0.7995232 0.1088241 0.7995232 0.8571429 0.8957143 0.9712835 0.8957143 0.9941406 0.8728572 0.9941406 0.8728572 0.9941406 0.2728571 0.8571429 0.8957143 0.9941406 0.2728571 0.9712835 0.25 0.8571429 0.25 0.8571429 0.25 0.9712835 0.25 0.9941406 0.2728571 0.9941406 0.2728571 0.9941406 0.8728572 0.8571429 0.25 0.9941406 0.8728572 0.9712835 0.8957143 0.8571429 0.8957143 0.1430349 0.7709519 0.1430349 0.7995232 0.1087492 0.7995232 1 0.423272 0.9997168 0.4244284 0.9948461 0.4202939 0.943547 0.6607143 0.9883317 0.6607143 0.9883317 0.875 0.943547 0.375 0.943547 0.5892857 0.9371582 0.5892857 0.9948461 0.5892857 0.9936557 0.5892856 0.9936557 0.375 0.9883317 0.6607143 0.9936557 0.6607143 0.9936556 0.875 0.9990749 0.4738569 0.9948461 0.4285627 0.995941 0.42903 0.9948461 0.4285627 0.9997168 0.4244284 0.9999999 0.4255847 0.9959411 0.4198268 0.9948461 0.4202939 0.9990749 0.375 0.891667 0.375 0.9371582 0.375 0.9371582 0.5892857 1 0.04827201 0.9997168 0.04942834 0.9948461 0.04529392 0.943547 0.2857142 0.9883317 0.2857143 0.9883317 0.5 0.943547 0 0.943547 0.2142857 0.9371582 0.2142857 0.9948461 0.2142857 0.9936557 0.2142856 0.9936557 0 0.9883317 0.2857143 0.9936557 0.2857143 0.9936556 0.5 0.9990749 0.09885686 0.9948461 0.0535627 0.995941 0.05402994 0.9948461 0.0535627 0.9997168 0.04942834 0.9999999 0.05058467 0.9959411 0.04482674 0.9948461 0.04529392 0.9990749 0 0.891667 0 0.9371582 0 0.9371582 0.2142857</float_array>
+          <technique_common>
+            <accessor source="#windows_hs_1-mesh-map-0-array" count="462" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="windows_hs_1-mesh-vertices">
+          <input semantic="POSITION" source="#windows_hs_1-mesh-positions"/>
+        </vertices>
+        <triangles material="wall_hs_1-material" count="52">
+          <input semantic="VERTEX" source="#windows_hs_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#windows_hs_1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#windows_hs_1-mesh-map-0" offset="2" set="0"/>
+          <p>10 0 0 9 1 1 1 2 2 3 3 3 2 4 4 7 5 5 9 6 6 13 7 7 17 8 8 10 9 9 12 10 10 4 11 11 4 12 12 15 13 13 7 14 14 6 15 15 13 16 16 5 17 17 11 18 18 14 19 19 6 20 20 8 21 21 15 22 22 16 23 23 36 34 45 35 35 46 54 36 47 55 37 48 29 38 49 33 39 50 35 40 51 39 41 52 43 42 53 36 43 54 38 44 55 30 45 56 30 46 57 41 47 58 33 48 59 32 49 60 39 50 61 31 51 62 37 52 63 40 53 64 32 54 65 34 55 66 41 56 67 42 57 68 9 1 189 11 96 190 1 2 191 1 2 192 3 3 193 10 0 194 3 3 195 8 97 196 10 0 197 5 98 198 9 1 199 10 0 200 5 98 201 10 0 202 4 99 203 1 2 204 11 96 205 6 100 206 5 98 207 4 99 208 2 4 209 4 99 210 7 5 211 2 4 212 0 101 213 1 2 214 6 100 215 6 100 216 5 98 217 0 101 218 2 4 219 0 101 220 5 98 221 8 97 222 3 3 223 7 5 224 9 6 225 5 54 226 13 7 227 10 9 228 18 102 229 12 10 230 4 12 231 12 103 232 15 13 233 6 15 234 14 104 235 13 16 236 11 18 237 19 105 238 14 19 239 8 21 240 7 54 241 15 22 242 35 35 264 37 113 265 54 36 266 54 36 267 55 37 268 36 34 269 55 37 270 34 114 271 36 34 272 31 115 273 35 35 274 36 34 275 31 115 276 36 34 277 30 116 278 54 36 279 37 113 280 32 117 281 31 115 282 30 116 283 29 38 284 30 116 285 33 39 286 29 38 287 28 118 288 54 36 289 32 117 290 32 117 291 31 115 292 28 118 293 29 38 294 28 118 295 31 115 296 34 114 297 55 37 298 33 39 299 35 40 300 31 119 301 39 41 302 36 43 303 44 120 304 38 44 305 30 46 306 38 121 307 41 47 308 32 49 309 40 48 310 39 50 311 37 52 312 45 122 313 40 53 314 34 55 315 33 20 316 41 56 317</p>
+        </triangles>
+        <triangles material="window_hr_1-material" count="8">
+          <input semantic="VERTEX" source="#windows_hs_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#windows_hs_1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#windows_hs_1-mesh-map-0" offset="2" set="0"/>
+          <p>19 24 24 13 25 25 14 26 26 18 27 27 15 28 28 12 29 29 45 58 69 39 59 70 40 60 71 44 61 72 41 62 73 38 63 74 19 24 243 17 106 244 13 25 245 18 27 246 16 107 247 15 28 248 45 58 318 43 123 319 39 59 320 44 61 321 42 124 322 41 62 323</p>
+        </triangles>
+        <triangles material="concrete_hr_1-material" count="20">
+          <input semantic="VERTEX" source="#windows_hs_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#windows_hs_1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#windows_hs_1-mesh-map-0" offset="2" set="0"/>
+          <p>21 20 30 22 20 31 20 20 32 26 30 33 25 30 34 24 30 35 25 31 36 20 31 37 24 31 38 26 32 39 20 32 40 22 32 41 23 33 42 25 33 43 27 33 44 46 64 75 49 64 76 48 64 77 53 65 78 50 65 79 52 65 80 51 66 81 46 66 82 50 66 83 48 67 84 50 67 85 46 67 86 49 68 87 51 68 88 53 68 89 21 108 249 23 108 250 22 108 251 26 109 252 27 109 253 25 109 254 25 110 255 21 110 256 20 110 257 26 111 258 24 111 259 20 111 260 23 112 261 21 112 262 25 112 263 46 54 324 47 54 325 49 54 326 53 125 327 51 125 328 50 125 329 51 126 330 47 126 331 46 126 332 48 127 333 52 127 334 50 127 335 49 128 336 47 128 337 51 128 338</p>
+        </triangles>
+        <triangles material="metal_hr_2-material" count="36">
+          <input semantic="VERTEX" source="#windows_hs_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#windows_hs_1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#windows_hs_1-mesh-map-0" offset="2" set="0"/>
+          <p>90 20 135 80 20 136 86 20 137 84 83 138 86 83 139 81 83 140 88 84 141 83 84 142 80 84 143 91 85 144 88 85 145 90 85 146 87 86 147 90 86 148 86 86 149 85 87 150 87 87 151 84 87 152 83 54 153 91 54 154 87 54 155 86 88 156 82 88 157 81 88 158 82 89 159 83 89 160 85 89 161 102 90 162 92 90 163 98 90 164 96 91 165 98 91 166 93 91 167 100 92 168 95 92 169 92 92 170 103 85 171 100 85 172 102 85 173 99 93 174 102 93 175 98 93 176 97 94 177 99 94 178 96 94 179 95 54 180 103 54 181 99 54 182 98 95 183 94 95 184 93 95 185 94 89 186 95 89 187 97 89 188 90 20 408 88 20 409 80 20 410 84 147 411 87 147 412 86 147 413 88 148 414 89 148 415 83 148 416 91 85 417 89 85 418 88 85 419 87 93 420 91 93 421 90 93 422 85 149 423 83 149 424 87 149 425 83 54 426 89 54 427 91 54 428 86 20 429 80 20 430 82 20 431 82 150 432 80 150 433 83 150 434 102 20 435 100 20 436 92 20 437 96 147 438 99 147 439 98 147 440 100 151 441 101 151 442 95 151 443 103 85 444 101 85 445 100 85 446 99 86 447 103 86 448 102 86 449 97 152 450 95 152 451 99 152 452 95 153 453 101 153 454 103 153 455 98 20 456 92 20 457 94 20 458 94 150 459 92 150 460 95 150 461</p>
+        </triangles>
+        <triangles material="concrete_hr_3-material" count="2">
+          <input semantic="VERTEX" source="#windows_hs_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#windows_hs_1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#windows_hs_1-mesh-map-0" offset="2" set="0"/>
+          <p>1 69 90 54 70 91 3 71 92 1 69 339 55 129 340 54 70 341</p>
+        </triangles>
+        <triangles material="planks_hr_4-material" count="36">
+          <input semantic="VERTEX" source="#windows_hs_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#windows_hs_1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#windows_hs_1-mesh-map-0" offset="2" set="0"/>
+          <p>59 72 93 62 72 94 57 72 95 56 73 96 64 73 97 58 73 98 56 74 99 63 74 100 60 74 101 62 75 102 60 75 103 63 75 104 62 76 105 64 76 106 61 76 107 65 77 108 67 77 109 66 77 110 66 54 111 58 54 112 65 54 113 73 76 114 71 76 115 74 76 116 70 78 117 68 78 118 69 78 119 69 54 120 77 54 121 70 54 122 79 79 123 72 79 124 75 79 125 79 80 126 71 80 127 77 80 128 76 81 129 73 81 130 78 81 131 73 82 132 75 82 133 72 82 134 59 130 342 66 130 343 67 130 344 67 131 345 62 131 346 59 131 347 62 132 348 63 132 349 57 132 350 56 133 351 60 133 352 61 133 353 61 134 354 64 134 355 56 134 356 64 135 357 65 135 358 58 135 359 56 20 360 57 20 361 63 20 362 62 136 363 61 136 364 60 136 365 62 137 366 67 137 367 64 137 368 65 138 369 64 138 370 67 138 371 66 139 372 59 139 373 58 139 374 73 140 375 68 140 376 71 140 377 70 141 378 71 141 379 68 141 380 69 142 381 76 142 382 77 142 383 79 20 384 78 20 385 72 20 386 79 143 387 75 143 388 74 143 389 74 134 390 71 134 391 79 134 392 71 144 393 70 144 394 77 144 395 76 145 396 69 145 397 68 145 398 68 131 399 73 131 400 76 131 401 73 146 402 72 146 403 78 146 404 73 136 405 74 136 406 75 136 407</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="windows_hs_1" name="windows_hs_1" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 -3.61999e-6 -1 0 0 1 -3.61999e-6 0 0 0 0 1</matrix>
+        <instance_geometry url="#windows_hs_1-mesh" name="windows_hs_1">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="wall_hs_1-material" target="#wall_hs_1-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="window_hr_1-material" target="#window_hr_1-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="concrete_hr_1-material" target="#concrete_hr_1-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="door_hm_1-material" target="#door_hm_1-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="metal_hr_2-material" target="#metal_hr_2-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="concrete_hr_3-material" target="#concrete_hr_3-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="planks_hr_4-material" target="#planks_hr_4-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
