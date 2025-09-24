@@ -1,0 +1,217 @@
+/* {
+    cursor: url('https://i.ibb.co/TxXH3H7K/cursor.png') 0 0, default;
+}*/
+
+.game_grid_widget .game_cell .game_title {
+  display: contents;
+}
+
+.game_grid_widget .game_cell .game_title a.title {
+  font-weight: normal;
+}
+
+.game_grid_widget .game_cell .meta_tag .sale_tag {
+  background: linear-gradient(45deg, #008F61, #008F61, #5A1EFF, #5A1EFF,#008F61, #008F61);
+  background-size: 400% 200%;
+  animation: gradientMove 4s infinite;
+}
+
+.game_grid_widget .game_cell .meta_tag > div {
+  padding: 0em 0.75em;
+  font-weight: inherit;
+  background-color: #0000007d;
+background-image:none;
+}
+
+.theme_editor_widget {
+max-width: 360px;
+}
+
+.theme_editor_widget .css_editor textarea {
+min-height: 256px;
+}
+
+.game_grid_widget .game_cell .game_thumb {
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+//animation: growOnce 0.75s ease-in-out forwards;
+}
+
+.user_page .user_profile.formatted div{
+  border: 1px #333333;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+  //border-style: dashed;
+  padding-top: 1px;
+  //line-height: 1;
+  margin-left: 16px;
+margin-right: 16px;
+//background-image: url('https://img.itch.zone/aW1nLzE5NTczMjYyLmdpZg==/original/KWDq%2FR.gif');
+//backdrop-filter: blur(1px);
+}
+
+.formatted h1, .formatted h2, .formatted h3, .formatted h4 {
+  margin: 0 0 0 0;
+}
+
+
+.game_grid_widget .game_cell .game_title {
+  font-size: 1.1em;
+  overflow: none;
+  //display: none;
+}
+
+.game_grid_widget .game_cell .price_tag {
+  //display: none;
+}
+
+.user_page .user_profile.formatted a {
+display: inline-block;
+  text-decoration: none;
+letter-spacing: normal;
+transition: color 0.3s ease, font-size 0.3s ease;
+transition: letter-spacing 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+.user_page .user_profile.formatted a:hover {
+  color: #F2333E;
+letter-spacing: 0.5px;
+}
+
+.user_links_widget {
+display: none;
+}
+
+a {
+  text-decoration: none;
+font-weight: normal;
+}
+
+
+.inner_column {
+  text-align: center;
+}
+
+.user_tools .action_btn {
+  background-size: 100% !important;
+  color: white !important;
+  animation: Rainbow 5s infinite linear;
+  transition: 0.3s ease;
+  outline: none;
+  border-radius: 4px;
+  border: 1px;
+  font-family: "Courier New";
+  //font-size: 15px;
+  transform: scale(0.95) rotate(0deg);
+}
+
+.user_tools .action_btn:hover {
+    transition: transform 0.2s ease;
+    transform: scale(1) rotate(0deg);
+}
+
+.formatted hr {
+  height: 3px;
+  border: none;
+  background: linear-gradient(to right, yellow, pink);
+}
+
+
+.game_list_widget {
+margin-top: 24px;
+}
+
+.gif_label {
+display:none
+}
+
+.header {
+     margin-top: 16px;
+}
+
+.user_page_wrap {
+  background-size: cover;
+  text-shadow: 1px 1px 1px black;
+}
+
+.game_cell {
+    max-width: 100%;
+    transition: transform 0.3s ease;
+    transform: scale(0.9) rotate(0deg);
+    border-radius: 8px;
+  padding: 0px;
+}
+
+.game_cell:hover {
+    transition: transform 0.3s ease;
+    transform: scale(0.92) rotate(0deg);
+}
+
+.image_header {
+    transition: transform 0.6s ease;
+    transform: scale(0.7) rotate(0deg) translateY(0);
+    animation: float 6s ease-in-out infinite;
+}
+
+.game_cell_data {
+    padding: 6px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.game_grid_widget .game_cell .game_text {
+white-space: inherit;
+}
+
+.formatted h6
+{
+margin: 0 0 0 0;
+animation: float2 4s ease-in-out infinite;
+color: #F2333E;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+
+@keyframes float2 {
+    0%, 100% {
+        transform: scale(0.95);
+        color: violet;
+    }
+    25% {
+        transform: scale(1);
+        color: orange;
+    }
+    50% {
+        transform: scale(0.95);
+        color: #F2333E;
+    }
+    75% {
+        transform: scale(1);
+        color: #F2333E;
+    }
+    100% {
+        transform: scale(0.95);
+        color: violet;
+    }
+    100% {
+        transform: scale(0.95);
+        color: violet;
+    }
+}
+
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+}

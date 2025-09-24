@@ -1,0 +1,298 @@
+.user_formatted pre {
+border: 1px #222222;
+  background: #00000050;
+  border-radius: 3px;
+  border-style: dashed;
+  //padding-top: 6px;
+  //padding-bottom: 6px;
+}
+
+.toggle_row {
+display:none;
+}
+
+.view_game_page .uploads p {
+  display: none;
+}
+
+.inner_column h2 {
+  text-align: center;
+}
+
+.sale_banner {
+  display: none;
+}
+
+.community_post_form_widget .button {
+  font-family: "Courier New";
+}
+
+.inner_column a {
+display: inline-block;
+  text-decoration: none;
+letter-spacing: normal;
+transition: letter-spacing 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+.inner_column a:hover {
+  color: #F2333E;
+letter-spacing: 0.5px;
+}
+
+.upload_name {
+  margin-left: 16px;
+}
+
+.edit_message {
+display:none;
+}
+
+.post_date {
+display:none;
+}
+
+.post_footer {
+text-align:center;
+}
+
+.upload_list_widget .upload {
+  border: 1px #222222;
+  background: #00000050;
+  border-radius: 3px;
+  border-style: dashed;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.game_comments_widget .post_form {
+  max-width: none;
+border: 1px #222222;
+  background: #00000050;
+  border-radius: 3px;
+  border-style: dashed;
+  padding: 6px;
+}
+
+.theme_editor_widget {
+max-width: 360px;
+}
+
+.theme_editor_widget .css_editor textarea {
+min-height: 256px;
+}
+
+/*.game_comments_widget
+{
+  border-radius: 3px;
+  margin: 20px;
+  padding: 6px;
+}*/
+
+.user_tools .action_btn {
+  background-size: 100% !important;
+  color: white !important;
+  animation: Rainbow 5s infinite linear;
+  transition: 0.3s ease;
+  outline: none;
+  border-radius: 4px;
+  border: 1px;
+  font-family: "Courier New";
+  transform: scale(0.95) rotate(0deg);
+}
+
+.user_tools .action_btn:hover {
+    transition: transform 0.2s ease;
+    transform: scale(1) rotate(0deg);
+}
+
+.inner_column h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+.user_formatted img {
+    transition: transform 0.3s ease;
+    transform: scale(0.98);
+}
+
+.user_formatted img:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1) rotate(0deg);
+}
+
+.inner_column h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+.toggle_info_btn {
+display: none;
+}
+
+.inner_column {
+   box-shadow: 0px 0px 64px #000000ed;
+//border: 1px #222222;
+  //border-radius: 3px;
+  //border-style: dashed;
+  //padding: 16px;
+text-shadow: 1px 1px 1px black;
+}
+
+.view_game_page .reward_row, .view_game_page .bundle_row {
+border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.wrapper {
+  //background-repeat: no-repeat;
+  //background-position: 50% 0;
+  //background-attachment: fixed;
+  background-size: cover;
+}
+
+.primary_column {
+text-shadow: 1.25px 1.25px 1px black;
+}
+
+.screenshot {
+    max-width: 80%;
+    transition: transform 0.25s ease;
+    transform: scale(0.85);
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.7);
+//border: 1px #111111;
+  //background: #00000050;
+  border-radius: 4px;
+  border-style: solid;
+  //padding: 6px;
+}
+
+.screenshot:hover {
+    transform: scale(0.87);
+}
+
+.view_game_page .buy_row {
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 3px;
+background: rgba(0,0,0,0.2);
+  //margin: 20px;
+border: 1px #222222;
+  border-radius: 3px;
+  border-style: dashed;
+}
+
+.view_game_page .reward_row, .view_game_page .bundle_row {
+  border-color: #191919 !important;
+  text-align: right;
+border: 1px #222222;
+  border-radius: 3px;
+  border-style: dashed;
+background: rgba(0,0,0,0.2);
+margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.header {
+    max-width: 100%;
+    transition: transform 0.5s ease;
+    transform: scale(0.95) rotate(0deg);
+    border-radius: 0px;
+    margin-top: 64px;
+   margin-bottom: 64px;
+}
+
+.header:hover {
+    transform: scale(1) rotate(0deg);
+}
+
+.button {
+  transition: transform 0.3s ease;
+  transform: scale(0.85);
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.button:hover {
+transform: scale(0.85);
+}
+
+.money_input {
+  font-size: 16px;
+  text-align: center;
+}
+
+.file_row {
+  font-size: 16px;
+}
+
+.lightbox {
+text-align: center;
+}
+
+.gifter {
+scale: 80%;
+}
+
+.icon-plus::before {
+  content: "♥️";
+  font-size: 14px;
+}
+
+
+.add_btn {
+    transition: transform 0.3s ease;
+    transform: scale(0.95);
+}
+
+.add_btn:hover {
+    transform: scale(1.0) rotate(0deg);
+}
+
+.checkout_btn {
+    transition: transform 0.3s ease;
+    transform: scale(0.95);
+}
+
+.checkout_btn:hover {
+    transform: scale(1.0) rotate(0deg);
+}
+
+.checkout_btn {
+  background-image: linear-gradient(45deg, #FFA500, #FFA500, violet, #A14DCC, #ED5600, #FFA500, #FFA500) !important;
+  background-size: 400% !important;
+  color: white !important;
+  animation: Rainbow 12s;
+    animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: 0.3s;
+  outline-color: rgba(255, 255, 255, 0.75);
+  outline-style: solid;
+  outline-width: 1px;
+  font-family: Courier New;
+}
+
+a.button {
+  background-image: linear-gradient(45deg, #FFA500, #FFA500, violet, #A14DCC, #ED5600, #FFA500, #FFA500) !important;
+  background-size: 400% !important;
+  color: white !important;
+  animation: Rainbow 12s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: 0.3s;
+  outline-color: rgba(255, 255, 255, 0.75);
+  outline-style: solid;
+  outline-width: 1px;
+  font-family: Courier New;
+}
+
+@keyframes Rainbow {
+  100% {
+  background-position: 400%;
+}
