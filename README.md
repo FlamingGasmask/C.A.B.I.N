@@ -12,7 +12,11 @@ physics door         9/21/2025  5hrs
 
 interaction system   9/22/2025  5hrs
 
-headbob when walking 9/TBD/2025 TBDhrs
+headbob when walking 9/TBD/2025 TBDhrs (failed to implement, need to keep trying)
+
+Sprint with stamina  9/24/2025  2hrs
+
+Crouching            9/24/2025  2hrs
 
 this was realy fun, ive so far used mainly the starter content for now but SOON i will upgrade to having an ARTSTYLE, a PSX artstyle
 
@@ -23,3 +27,5 @@ https://www.udemy.com/course/unreal-engine-ultimate-survival-horror-course/?coup
 using this to get a frame work set up so i can branch off and build the game ive been conceptualizing for four years, i am VERY excited
 
 Level Design
+
+Built a small test ouse to experiment with the assets to make it feel like a lived in house               9/30/2025  5hrs
